@@ -28,3 +28,10 @@ Reservations
 /api/reservations/:id	    PUT	Actualizar una reserva existente (usuario o staff).
 /api/reservations/:id	    DELETE	Cancelar una reserva (usuario o staff).
 
+.env
+
+PORT= To use
+ALLOWED_ORIGIN= page for cors
+DATABASE_URL=postgres://postgres:XXXXXX@xxxx/service-api
+SECRET_KEY=xxxxxxx
+JWT_SECRET=xxxxxxxxxxxxx
